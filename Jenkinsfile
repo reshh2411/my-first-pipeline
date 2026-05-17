@@ -6,7 +6,7 @@ pipeline {
     stage('Test1') {
       steps { sh 'node --version' }
     }
-    stages('Test2'){
+    stage('Test2'){
 		steps { sh 'node -e "console.log('Hello World')"'}
     }
   }

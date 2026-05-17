@@ -14,7 +14,7 @@ pipeline {
 
         stage('Test2') {
             steps {
-                sh 'node -e "console.log(\"Hello World\")"'
+                sh "node -e \"console.log('Hello World')\""
             }
         }
     }
